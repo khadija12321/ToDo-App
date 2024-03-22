@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    display: flex;
+    padding: 0;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;width: 60%;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    width: 50%;
+}
+
+.input{
+    flex: 1;
+    height: 100%;
+    padding: 0 20px;
+    border-radius: 20px;
+    outline: none;
+}
+.imgbtn{
+    width: 30px;
+    height: 30px;
+    background-color: #ededed;
+    padding: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.imgbtn:hover{
+    background-color: #c3c3c3;
+}
+
+.toDoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    
+}
+
+.todoItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #cdcccc;
+    padding: 4px 35px;
+    border-radius: 5px;
+}
+.todoItem>p{
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.todoItem>button{
+    background-color:#ededed;
+    border: none;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.todoItem>button:hover{
+    background-color: #dedcdc;
+}
