@@ -18,7 +18,7 @@ input.className ='input';
 
 let imagebtn = document.createElement('img');
 imagebtn.className ='imgbtn';
-imagebtn.src ='../assets/add.png';
+imagebtn.src ='./../assets/add.png';
 
 imagebtn.onclick =()=>{
     toDoList.push(document.querySelector('.input').value);
