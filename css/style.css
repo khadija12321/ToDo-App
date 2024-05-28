@@ -76,3 +76,8 @@ body{
 .todoItem>button:hover{
     background-color: #dedcdc;
 }
+@media(max-width:450px) {
+    body{
+        justify-content: left;
+    }
+}
